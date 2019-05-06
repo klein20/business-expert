@@ -13,13 +13,12 @@ form, menu, iframe { display: block; margin: 0; padding: 0; border: none;}
 ol, ul, dl, li, dt, dd { margin: 0; padding: 0; }
 * { outline: none;}
 
-/*
+
 body {
-	background-image: linear-gradient(to bottom, #0244a5 0, 0248a8 22px, #0759af 43px, #1f6bc1 44px, #004498 45px, #fff 200px,
+	background-image: linear-gradient(to bottom, #0244a5 0, #0248a8 22px, #0759af 43px, #1f6bc1 44px, #004498 45px, #fff 520px,
 	#fff 100%);
-	min-height: 100vh;
 }
-*/
+
 
 
 .resize {
@@ -37,7 +36,6 @@ body {
 .logo {
 	text-align: center;
 }
-
 
 .text_header {
 	width: 350px;
@@ -91,18 +89,18 @@ ul.article_2  {
 }
 
 .button {
-	text-align: center;
+	text-align: center;	
+}
+
+.button a {
+	color: white;
+	font-size: 20px;
 	background: linear-gradient(to top, #8a2f12, #a04223); 
 	border-radius: 3px;
 	border-top: 1px solid #c58b78;
 	padding: 10px 6px;
 	width: 195px;
 	display: inline-block;
-}
-
-.button p {
-	color: white;
-	font-size: 20px;
 }
 
 
