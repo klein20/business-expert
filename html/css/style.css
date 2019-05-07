@@ -33,6 +33,14 @@ body {
 	padding: 10px 0;
 }
 
+.menu li a {
+	color: white;
+}
+
+.menu li  {
+	color: #2789c9;
+}
+
 .logo {
 	text-align: center;
 }
@@ -46,7 +54,7 @@ body {
 	font-size: 12px;
 }
 
-.main_bg {
+.img_video {
 	float: right;
 	padding: 21px 20px 37px 0;
 }
@@ -103,4 +111,7 @@ ul.article_2  {
 	display: inline-block;
 }
 
+.video {
+	background-image: url(D:/work/2019-04/business-expert/html/images/main_bg.png);
+}
 

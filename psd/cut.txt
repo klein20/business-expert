@@ -1,0 +1,8 @@
+﻿-логотип з тінню logo.jpg
+-фон під відео main-bg.jpg
+-заглушка відео video.jpg
+-іконка трубки phone.jpg
+-аватарка uerpic.jpg
+-фотка з закатом img.jpg
+-"печатка" 100% garenty.jpg
+-три логотипа logo_intel.jpg logo_coinup.png logo mria.jpg
