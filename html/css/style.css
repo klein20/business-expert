@@ -5,8 +5,8 @@ a { color: #0000ff; text-decoration: none;}
 a:hover { color: #7777ff;}
 a img { border: none;}
 h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; font-weight: bold; color: #000;}
-h1 { padding: 40px 0 24px; line-height: 1.4em; font-size: 41px;}
-h2 { padding: 0 0 12px; font-size: 26px;}
+h1 { padding: 40px 0 24px; line-height: 1.4em; font-size: 41px; color: white;}
+h2 { padding: 40px 0 12px; font-size: 26px;}
 strong { font-weight: bold;}
 em { font-style: italic;}
 form, menu, iframe { display: block; margin: 0; padding: 0; border: none;}
@@ -19,7 +19,12 @@ body {
 	#fff 100%);
 }
 
-
+.clearfix:after
+ { 
+	content: "";
+	display: block; 
+	clear: both;
+ }
 
 .resize {
 	width: 1000px;
@@ -48,6 +53,7 @@ body {
 .text_header {
 	width: 350px;
 	text-align: right;
+	color: white;
 }
 
 .text_header_small {
@@ -56,7 +62,7 @@ body {
 
 .img_video {
 	float: right;
-	padding: 21px 20px 37px 0;
+	border-radius: 5px;
 }
 
 .article {
@@ -113,5 +119,6 @@ ul.article_2  {
 
 .video {
 	background-image: url(D:/work/2019-04/business-expert/html/images/main_bg.png);
+	padding: 21px 20px 37px 0;
 }
 
