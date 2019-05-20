@@ -78,7 +78,8 @@ body {
 
 .article {
 	padding-left: 20px;
-	width: 68%;
+	padding-right: 20px;
+	width: 70%;
 }
 
 .article p {
@@ -136,7 +137,6 @@ ul.article_2  {
 
 .contacts {
 	padding: 20px 25px 27px 15px;
-	
 }
 
 .phone {
@@ -145,15 +145,19 @@ ul.article_2  {
 	text-align: right;
 }
 
-.number {
+.number a  {
 	float: right;
 	font-size: 26px;
+	color: #333333;
 }
 
 .sidebar {
+	display: inline-block;
 	float: right;
 	width: 28%;
 	background-color: #f9f9f9;
+	height: 100%;
+	box-shadow: -4px 1px 5px 0px rgba(233,233,233,1);
 }
 
 .header_feedback {
@@ -253,11 +257,34 @@ ul.article_2  {
 	font-size: 12px;
 }
 
+.copyright {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+	font-size: 12px;
+}
+
+.copyright p {
+	font-size: 12px;
+	color: #a5a5a5;
+}
+
+.copyright a {
+	color: #007bca;
+}
+
 .copyright ul {
 	display: flex;
-	justify-content: flex-end; 
 }
 
 .copyright li {
-	
+	list-style: none;
+	text-indent: 1.5em;
 }
+
+.copyright li:not(:first-child):before {
+	content: '\2022'; 
+    padding-right: 15px; 
+    color: #007bca;
+}
+
